@@ -1,12 +1,19 @@
 <html>
 
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
   <style>
+    
+    body{
+      font-family: 'Roboto', sans-serif;
+    }
     .greenstyle {
       display: flex;
       background-color: green;
       color: white;
-      padding: 10px;
+      padding: 10px 60px;
       justify-content: space-between;
     }
 
@@ -20,6 +27,7 @@
       background-color: black;
       height: 600px;
       display: flex;
+      font-family: 'Roboto', sans-serif;
     }
 
     .box {
@@ -98,25 +106,58 @@
     }
     .contact{
       background-color: antiquewhite;
+      padding: 20px;
     }
     .contact-form{
       background-color: black;
       width: 700px;
-      height: 400px;
+      height: 450px;
       margin: auto;
       margin-top: 50px;
       border-radius: 15px;
     }
     .contact-form table{
-      border: 2px solid green;
+      color: white;
+      
     }
     .contact-form tr{
-      border: 2px solid green;
-      background-color: lightblue;
+      
+      
       height: 10px;
       width: 300px;
     }
-    
+    .contact-form td{
+      padding: 20px 80px;
+      
+      
+    }
+    button{
+      background-color: lightgreen;
+      padding: 5px 50px;
+      border-radius: 15px;
+      font-weight: 20px;
+    }
+    .social_media{
+      background-color: green; 
+      color: white; 
+      padding: 10px;
+      font-family: 'Roboto', sans-serif;
+    }
+    .social_media ul li {
+      display: inline;
+      padding: 5px 70px;
+    }
+    .signature{
+      margin: 0px;
+      height: 20px;
+    }
+    footer{
+      font-size: 30px;
+      height: 80px;
+      background-color: black;
+      padding: 20px;
+      color: white;
+    }
   </style>
 </head>
 
@@ -137,6 +178,7 @@
       <img
         src="https://cdn.vox-cdn.com/thumbor/mJVnDw9aaDQkhYoX1oRUOBGwLI8=/0x0:4384x2922/1400x1400/filters:focal(2192x1461:2193x1462)/cdn.vox-cdn.com/uploads/chorus_asset/file/13276085/1052208434.jpg.jpg">
     </div>
+    <!-- <img src="Eduproper-website-banner-pic-compressed-1-1.png" alt=""> -->
     <div class='box'>
       <h1 class="green-heading">About Us</h1>
       <p>
@@ -157,6 +199,8 @@
 
 
       <b>Unikaksha Team</b>
+      
+      <!-- <img class="signature" src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/1049023/original/a3f8105b7d7e082ac198103804be6a6dbeec5c1d/design-a-professional-and-stylish-personal-signature-logo-with-transparent-background.jpg" alt=""> -->
     </div>
   </div>
 
@@ -211,30 +255,47 @@
     <div class='contact-form'>
       <table>
         <tr>
-          <td>Home</td>
-          <td>Home</td>
+          <td> <label for="">Name </label> </td>
+          <td> <input type="text"> </td>
         </tr>
         <tr>
-          <td>Home</td>
-          <td>Home</td>
+          <td> <label for="">Email</label> </td>
+          <td> <input type="text"> </td>
         </tr>
         <tr>
-          <td>Home</td>
-          <td>Home</td>
+          <td> <label for="">Number </label> </td>
+          <td> <input type="text"> </td>
         </tr>
         <tr>
-          <td>Home</td>
-          <td>Home</td>
+          <td> <label for="">Message </label> </td>
+          <td> <textarea name="" id="" cols="30" rows="7"></textarea> </td>
         </tr>
         <tr>
-          <td>Home</td>
-          <td>Home</td>
+          <td></td>
+          <td> <button type="submit">Submit</button> </td>
         </tr>
         
       </table>
     </div>
   </div>
 
+<div class='social_media'>
+  <ul>
+    <li>Linekdin</li>
+    <li>Linekdin</li>
+    <li>Linekdin</li>
+    <li>Linekdin</li>
+    <li>Linekdin</li>
+    <li>Linekdin</li>
+    <li>Linekdin</li>
+    <li>Linekdin</li>
+  </ul>
+</div>
+
+<footer>
+  <b> &copy; copyright 2023, All rights reserved.</b> 
+</footer>
+  
 </body>
 
 </html>
